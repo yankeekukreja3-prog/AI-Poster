@@ -1,0 +1,20 @@
+{
+  "name": "copy-of-copy-of-ai-for-astrophysics-&-planetary-science-poster-(isu)-(no-framework)-v20",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.181.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
