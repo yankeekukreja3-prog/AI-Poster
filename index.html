@@ -15,8 +15,7 @@
 {
   "imports": {
     "three": "https://cdn.jsdelivr.net/npm/three@0.181.0/build/three.module.js",
-    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.181.0/examples/jsm/",
-    "three/": "https://aistudiocdn.com/three@^0.181.0/"
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.181.0/examples/jsm/"
   }
 }
 </script>
@@ -387,7 +386,6 @@
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
-            text-fill-color: transparent;
         }
 
         header h1.hidden {
@@ -751,5 +749,17 @@
             padding: 1.25rem;
             border-radius: 0.5rem;
             margin-bottom: 1rem;
-            border: 1px solid var(--<link rel="stylesheet" href="/index.css">
-<script type="module" src="/index.tsx"></script>
+            border: 1px solid var(--glass-border);
+        }
+    </style>
+</head>
+<body>
+    <div id="three-canvas-container"></div>
+    <div id="page-content-wrapper"></div>
+    <div id="landing-screen"></div>
+    
+    <script type="module" src="/data.js"></script>
+    <script type="module" src="/index.js"></script>
+</body>
+</html>
+
